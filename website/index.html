@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>David Glazier</title>
+<meta name="description" content="Portfolio of David Glazier, game developer, pixel artist, and illustrator.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+	<a class="site-logo" href="index.html"><img src="img/logo-david-glazier.png" alt="David Glazier"></a>
+	<nav class="main-nav">
+		<a href="index.html">home</a>
+		<div class="nav-dropdown">
+			<a href="#work" class="nav-dropdown-trigger" aria-haspopup="true" aria-expanded="false">my work</a>
+			<div class="nav-dropdown-menu" role="menu">
+				<a href="demo-reel.html">Demo Reel</a>
+				<a href="fallen-fate.html">Fallen Fate</a>
+				<a href="political-party-animal.html">Political Party Animal</a>
+				<a href="art-fight.html">Art Fight</a>
+				<a href="au-bon-cake.html">Au Bon Cake</a>
+				<a href="personal-3d.html">3D Personal Projects</a>
+			</div>
+		</div>
+		<a href="#contact">contact</a>
+		<a href="demo-reel.html">demo reel</a>
+		<a href="resume.html">resume</a>
+	</nav>
+	<button class="menu-btn" id="menu-open" aria-label="Open menu"><span></span><span></span><span></span></button>
+</header>
+
+<nav class="nav-overlay" id="nav-overlay">
+	<button class="nav-close" id="menu-close" aria-label="Close menu">&times;</button>
+	<a href="index.html">home</a>
+	<div class="nav-overlay-group">
+		<a href="#work">my work</a>
+		<div class="nav-overlay-sub">
+				<a href="demo-reel.html">Demo Reel</a>
+				<a href="fallen-fate.html">Fallen Fate</a>
+				<a href="political-party-animal.html">Political Party Animal</a>
+				<a href="art-fight.html">Art Fight</a>
+				<a href="au-bon-cake.html">Au Bon Cake</a>
+				<a href="personal-3d.html">3D Personal Projects</a>
+		</div>
+	</div>
+	<a href="#contact">contact</a>
+	<a href="demo-reel.html">demo reel</a>
+	<a href="resume.html">resume</a>
+</nav>
+
+<section class="hero" id="home">
+	<div class="carousel-indicators" id="indicators"></div>
+	<div class="carousel-zone">
+		<div class="carousel" id="carousel"></div>
+	</div>
+	<div class="carousel-controls">
+		<button class="carousel-btn" id="prevBtn" aria-label="Previous project">&#8249;</button>
+		<button class="carousel-btn" id="nextBtn" aria-label="Next project">&#8250;</button>
+	</div>
+</section>
+
+<section class="work-band" id="work">
+	<div class="wrap">
+		<div class="work-head reveal">
+			<h2 class="rainbow">My Work</h2>
+		</div>
+
+		<div class="work-grid">
+			<article class="work-card reveal">
+				<div class="work-media">
+					<video muted autoplay loop playsinline preload="metadata" poster="img/posters/demo-reel.jpg">
+						<source src="media/demo-reel.mp4" type="video/mp4">
+					</video>
+				</div>
+				<h3 class="rainbow">Demo Reel</h3>
+				<p class="work-role">Role: Artist &amp; Programmer</p>
+				<a class="learn-more" href="demo-reel.html">Learn More</a>
+			</article>
+
+			<article class="work-card reveal">
+				<div class="work-media">
+					<video muted autoplay loop playsinline preload="metadata" poster="img/posters/fallen-fate.jpg">
+						<source src="media/fallen-fate.mp4" type="video/mp4">
+					</video>
+				</div>
+				<h3 class="rainbow">Fallen Fate</h3>
+				<p class="work-role">Role: Code Lead</p>
+				<a class="learn-more" href="fallen-fate.html">Learn More</a>
+			</article>
+
+			<article class="work-card reveal">
+				<div class="work-media">
+					<video muted autoplay loop playsinline preload="metadata" poster="img/posters/political-party-animal.jpg">
+						<source src="media/political-party-animal.mp4" type="video/mp4">
+					</video>
+				</div>
+				<h3 class="rainbow">Political Party Animal</h3>
+				<p class="work-role">Role: Artist &amp; Programmer</p>
+				<a class="learn-more" href="political-party-animal.html">Learn More</a>
+			</article>
+
+			<article class="work-card reveal">
+				<div class="work-media">
+					<img src="img/slides/art-fight/07-thunderbird-attack.jpg" alt="Art Fight birdboy attack">
+				</div>
+				<h3 class="rainbow">Art Fight</h3>
+				<p class="work-role">Role: Artist</p>
+				<a class="learn-more" href="art-fight.html">Learn More</a>
+			</article>
+
+			<article class="work-card reveal">
+				<div class="work-media">
+					<img src="img/slides/au-bon-cake/01-designer-bag-ad.jpg" alt="Au Bon Cake designer bag cake">
+				</div>
+				<h3 class="rainbow">Au Bon Cake</h3>
+				<p class="work-role">Role: 3D modeler &amp; Graphic Designer</p>
+				<a class="learn-more" href="au-bon-cake.html">Learn More</a>
+			</article>
+
+			<article class="work-card reveal">
+				<div class="work-media">
+					<video muted autoplay loop playsinline preload="metadata" poster="img/posters/heavy-object.jpg">
+						<source src="media/heavy-object.mp4" type="video/mp4">
+					</video>
+				</div>
+				<h3 class="rainbow">3D Personal Projects</h3>
+				<p class="work-role">Role: Artist &amp; Programmer</p>
+				<a class="learn-more" href="personal-3d.html">Learn More</a>
+			</article>
+		</div>
+	</div>
+</section>
+
+<section class="contact-band" id="contact">
+	<div class="wrap reveal">
+		<h2 class="rainbow">Contact Me</h2>
+		<div class="contact-links">
+			<a href="mailto:Dglazier613@gmail.com">Dglazier613@gmail.com</a>
+			<a href="https://www.instagram.com/davidglazier.art/" target="_blank" rel="noopener">Instagram</a>
+			<a href="https://www.linkedin.com/in/david-glazier-57b9b5245/" target="_blank" rel="noopener">Linkedin</a>
+		</div>
+	</div>
+</section>
+
+<footer class="site-footer">&copy; 2026 David Glazier</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>David Glazier</title>
+<meta name="description" content="Political Party Animal, a satirical mobile game. David Glazier, artist and programmer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+	<a class="site-logo" href="index.html"><img src="img/logo-david-glazier.png" alt="David Glazier"></a>
+	<nav class="main-nav">
+		<a href="index.html">home</a>
+		<div class="nav-dropdown">
+			<a href="index.html#work" class="nav-dropdown-trigger" aria-haspopup="true" aria-expanded="false">my work</a>
+			<div class="nav-dropdown-menu" role="menu">
+				<a href="demo-reel.html">Demo Reel</a>
+				<a href="fallen-fate.html">Fallen Fate</a>
+				<a href="political-party-animal.html">Political Party Animal</a>
+				<a href="art-fight.html">Art Fight</a>
+				<a href="au-bon-cake.html">Au Bon Cake</a>
+				<a href="personal-3d.html">3D Personal Projects</a>
+			</div>
+		</div>
+		<a href="index.html#contact">contact</a>
+		<a href="demo-reel.html">demo reel</a>
+		<a href="resume.html">resume</a>
+	</nav>
+	<button class="menu-btn" id="menu-open" aria-label="Open menu"><span></span><span></span><span></span></button>
+</header>
+
+<nav class="nav-overlay" id="nav-overlay">
+	<button class="nav-close" id="menu-close" aria-label="Close menu">&times;</button>
+	<a href="index.html">home</a>
+	<div class="nav-overlay-group">
+		<a href="index.html#work">my work</a>
+		<div class="nav-overlay-sub">
+				<a href="demo-reel.html">Demo Reel</a>
+				<a href="fallen-fate.html">Fallen Fate</a>
+				<a href="political-party-animal.html">Political Party Animal</a>
+				<a href="art-fight.html">Art Fight</a>
+				<a href="au-bon-cake.html">Au Bon Cake</a>
+				<a href="personal-3d.html">3D Personal Projects</a>
+		</div>
+	</div>
+	<a href="index.html#contact">contact</a>
+	<a href="demo-reel.html">demo reel</a>
+	<a href="resume.html">resume</a>
+</nav>
+
+<section class="proj-hero">
+	<div class="proj-hero-media pixelated"><img src="img/city-banner.png" alt="Political Party Animal city skyline"></div>
+	<div class="proj-hero-content wrap">
+		<p class="proj-kicker">Game &bull; Android &bull; Satire</p>
+		<h1 class="rainbow">Political Party Animal</h1>
+		<p class="proj-tagline">Win the election by herding voters, court donors, and gerrymandering your way to the presidency in a satirical mobile game about running the worst best campaign ever.</p>
+		<div class="proj-meta">
+			<span>Unity Engine</span><span>Pixel Art</span><span>Animation</span><span>Game design</span><span>Game programming</span>
+		</div>
+	</div>
+</section>
+
+<section class="proj-section">
+	<div class="wrap">
+		<div class="story reveal">
+			<h2 class="rainbow">The Project</h2>
+			<p>Political Party Animal is a mobile roguelike Deckbuilder inspired by Balatro and UFO 50 where every citizen is a &ldquo;little guy.&rdquo; Try to win the state by exceeding the popularity score each voter will give you. But every controversial supporter will bring trouble. Exceed 4 trouble and you&rsquo;ll get cancelled. Use the money donors give you to buy more guys to add to your deck, with special abilities, and win the election by any means necessary.</p>
+		</div>
+		<div class="media-full reveal">
+			<video muted autoplay loop playsinline preload="metadata" poster="img/posters/political-party-animal.jpg">
+				<source src="media/political-party-animal.mp4" type="video/mp4">
+			</video>
+		</div>
+		<p class="media-caption reveal">Full gameplay capture, 1080p60 build running on device</p>
+	</div>
+</section>
+
+<section class="proj-section">
+	<div class="wrap">
+		<div class="story center reveal">
+			<h2 class="rainbow">Meet The Animals</h2>
+			<p>These are the real in-game sprites, running their real animation data. Give one a poke.</p>
+		</div>
+		<div class="sprite-row reveal">
+			<button class="ppa-sprite" data-char="AverageVoter" aria-label="Average Voter, click to animate"></button>
+			<button class="ppa-sprite" data-char="Reporter" aria-label="Reporter, click to animate"></button>
+			<button class="ppa-sprite" data-char="Extremist" aria-label="Extremist, click to animate"></button>
+			<button class="ppa-sprite" data-char="RichGuy" aria-label="Rich Donor, click to animate"></button>
+		</div>
+		<p class="sprite-hintline">Click a character to run its full animation cycle</p>
+	</div>
+</section>
+
+<section class="proj-section">
+	<div class="wrap">
+		<div class="story reveal">
+			<h2 class="rainbow">The Roster</h2>
+			<p>Every archetype pulls the campaign in a different direction: voters bring popularity, donors bring money, extremists bring trouble. And others can add unique skills to increase your score.</p>
+		</div>
+		<div class="media-grid pixelated reveal">
+			<figure><img src="img/ppa-average-voter.png" alt="Average Voter sprite" loading="lazy"><figcaption>Average Voter</figcaption></figure>
+			<figure><img src="img/ppa-reporter.png" alt="Reporter sprite" loading="lazy"><figcaption>Reporter</figcaption></figure>
+			<figure><img src="img/ppa-extremist.png" alt="Extremist sprite" loading="lazy"><figcaption>Extremist</figcaption></figure>
+			<figure><img src="img/ppa-rich-donor.png" alt="Rich Donor sprite" loading="lazy"><figcaption>Rich Donor</figcaption></figure>
+			<figure><img src="img/ppa-chud.png" alt="Chud sprite" loading="lazy"><figcaption>Chud</figcaption></figure>
+		</div>
+	</div>
+</section>
+
+<section class="proj-section">
+	<div class="wrap">
+		<div class="story reveal">
+			<h2 class="rainbow">Campaign Trail</h2>
+			<p>The game plays out across a stylized United States. Win states, watch the map flip.</p>
+		</div>
+		<div class="media-full pixelated reveal"><img src="img/us-map.png" alt="Stylized US electoral map" loading="lazy"></div>
+	</div>
+</section>
+
+<div class="proj-next">
+	<span class="np-label">Next project</span>
+	<a class="np-title" href="art-fight.html">Art Fight &rarr;</a>
+	<a class="np-back" href="index.html#work">&larr; Back to all work</a>
+</div>
+
+<footer class="site-footer">&copy; 2026 David Glazier</footer>
+
+<script src="js/main.js"></script>
+<script src="js/ppa-characters.js"></script>
+</body>
+</html>

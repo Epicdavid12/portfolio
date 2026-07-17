@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>David Glazier</title>
+<meta name="description" content="3D renders and animations by David Glazier.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+	<a class="site-logo" href="index.html"><img src="img/logo-david-glazier.png" alt="David Glazier"></a>
+	<nav class="main-nav">
+		<a href="index.html">home</a>
+		<div class="nav-dropdown">
+			<a href="index.html#work" class="nav-dropdown-trigger" aria-haspopup="true" aria-expanded="false">my work</a>
+			<div class="nav-dropdown-menu" role="menu">
+				<a href="demo-reel.html">Demo Reel</a>
+				<a href="fallen-fate.html">Fallen Fate</a>
+				<a href="political-party-animal.html">Political Party Animal</a>
+				<a href="art-fight.html">Art Fight</a>
+				<a href="au-bon-cake.html">Au Bon Cake</a>
+				<a href="personal-3d.html">3D Personal Projects</a>
+			</div>
+		</div>
+		<a href="index.html#contact">contact</a>
+		<a href="demo-reel.html">demo reel</a>
+		<a href="resume.html">resume</a>
+	</nav>
+	<button class="menu-btn" id="menu-open" aria-label="Open menu"><span></span><span></span><span></span></button>
+</header>
+
+<nav class="nav-overlay" id="nav-overlay">
+	<button class="nav-close" id="menu-close" aria-label="Close menu">&times;</button>
+	<a href="index.html">home</a>
+	<div class="nav-overlay-group">
+		<a href="index.html#work">my work</a>
+		<div class="nav-overlay-sub">
+				<a href="demo-reel.html">Demo Reel</a>
+				<a href="fallen-fate.html">Fallen Fate</a>
+				<a href="political-party-animal.html">Political Party Animal</a>
+				<a href="art-fight.html">Art Fight</a>
+				<a href="au-bon-cake.html">Au Bon Cake</a>
+				<a href="personal-3d.html">3D Personal Projects</a>
+		</div>
+	</div>
+	<a href="index.html#contact">contact</a>
+	<a href="demo-reel.html">demo reel</a>
+	<a href="resume.html">resume</a>
+</nav>
+
+<section class="proj-hero">
+	<div class="proj-hero-media"><img src="img/slides/personal-3d/01-lego-living-room.jpg" alt="Lego living room render"></div>
+	<div class="proj-hero-content wrap">
+		<p class="proj-kicker">3D &bull; Blender &bull; Maya</p>
+		<h1 class="rainbow">3D Personal Projects</h1>
+		<p class="proj-tagline">3D renders and animations. Cozy rooms, Character Acting, etc..</p>
+		<div class="proj-meta">
+			<span>Blender</span><span>AutoDesk Maya</span><span>Modeling</span><span>Animation</span>
+		</div>
+	</div>
+</section>
+
+<section class="proj-section">
+	<div class="wrap">
+		<div class="story reveal">
+			<h2 class="rainbow">Animation Studies</h2>
+			<p>Weight is everything. This heavy-object lift is a body-mechanics study: anticipation, strain, and settle, rendered straight out of Blender.</p>
+		</div>
+		<div class="media-full reveal">
+			<video muted autoplay loop playsinline preload="metadata" poster="img/posters/heavy-object.jpg">
+				<source src="media/heavy-object.mp4" type="video/mp4">
+			</video>
+		</div>
+		<p class="media-caption reveal">Heavy object lift, body mechanics study</p>
+
+		<div class="media-full reveal" style="margin-top: 28px;">
+			<video muted autoplay loop playsinline preload="metadata" poster="img/posters/fancy-walk.jpg">
+				<source src="media/fancy-walk.mp4" type="video/mp4">
+			</video>
+		</div>
+		<p class="media-caption reveal">Fancy walk cycle, personality pass</p>
+	</div>
+</section>
+
+<section class="proj-section">
+	<div class="wrap">
+		<div class="story reveal">
+			<h2 class="rainbow">Renders</h2>
+			<p>Scene-building studies: a comic-papered living room built from toy logic, and creatures assembled from bricks.</p>
+		</div>
+		<div class="media-grid reveal">
+			<figure><img src="img/slides/personal-3d/01-lego-living-room.jpg" alt="Toy living room render" loading="lazy"><figcaption>The comic living room</figcaption></figure>
+			<figure><img src="img/slides/personal-3d/02-brick-crab.jpg" alt="Brick crab render" loading="lazy"><figcaption>Brick crab</figcaption></figure>
+			<figure><img src="img/slides/personal-3d/03-lego-guy.jpg" alt="Lego character render" loading="lazy"><figcaption>Little brick guy</figcaption></figure>
+		</div>
+	</div>
+</section>
+
+<div class="proj-next">
+	<span class="np-label">Next project</span>
+	<a class="np-title" href="fallen-fate.html">Fallen Fate &rarr;</a>
+	<a class="np-back" href="index.html#work">&larr; Back to all work</a>
+</div>
+
+<footer class="site-footer">&copy; 2026 David Glazier</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

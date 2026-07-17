@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>David Glazier</title>
+<meta name="description" content="Fallen Fate, a horror and rhythm pixel-art game. David Glazier, code lead.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+	<a class="site-logo" href="index.html"><img src="img/logo-david-glazier.png" alt="David Glazier"></a>
+	<nav class="main-nav">
+		<a href="index.html">home</a>
+		<div class="nav-dropdown">
+			<a href="index.html#work" class="nav-dropdown-trigger" aria-haspopup="true" aria-expanded="false">my work</a>
+			<div class="nav-dropdown-menu" role="menu">
+				<a href="demo-reel.html">Demo Reel</a>
+				<a href="fallen-fate.html">Fallen Fate</a>
+				<a href="political-party-animal.html">Political Party Animal</a>
+				<a href="art-fight.html">Art Fight</a>
+				<a href="au-bon-cake.html">Au Bon Cake</a>
+				<a href="personal-3d.html">3D Personal Projects</a>
+			</div>
+		</div>
+		<a href="index.html#contact">contact</a>
+		<a href="demo-reel.html">demo reel</a>
+		<a href="resume.html">resume</a>
+	</nav>
+	<button class="menu-btn" id="menu-open" aria-label="Open menu"><span></span><span></span><span></span></button>
+</header>
+
+<nav class="nav-overlay" id="nav-overlay">
+	<button class="nav-close" id="menu-close" aria-label="Close menu">&times;</button>
+	<a href="index.html">home</a>
+	<div class="nav-overlay-group">
+		<a href="index.html#work">my work</a>
+		<div class="nav-overlay-sub">
+				<a href="demo-reel.html">Demo Reel</a>
+				<a href="fallen-fate.html">Fallen Fate</a>
+				<a href="political-party-animal.html">Political Party Animal</a>
+				<a href="art-fight.html">Art Fight</a>
+				<a href="au-bon-cake.html">Au Bon Cake</a>
+				<a href="personal-3d.html">3D Personal Projects</a>
+		</div>
+	</div>
+	<a href="index.html#contact">contact</a>
+	<a href="demo-reel.html">demo reel</a>
+	<a href="resume.html">resume</a>
+</nav>
+
+<section class="proj-hero">
+	<div class="proj-hero-media pixelated"><img src="img/ff-banner.png" alt="Fallen Fate banner art"></div>
+	<div class="proj-hero-content wrap">
+		<p class="proj-kicker">Game &bull; Unity &bull; Horror / Rhythm</p>
+		<h1 class="rainbow">Fallen Fate</h1>
+		<p class="proj-tagline">A horror and rhythm pixel-art game where music is your weapon and grief is the monster. I was the code lead.</p>
+		<div class="proj-meta">
+			<span>Unity Engine</span><span>C#</span><span>Code Lead</span><span>Game Mechanics Design</span>
+		</div>
+	</div>
+</section>
+
+<section class="proj-section">
+	<div class="wrap">
+		<div class="story reveal">
+			<h2 class="rainbow">The Project</h2>
+			<p>Fallen Fate is a dark, pixel-art Horro & Rhythm where a letter from a lost girlfriend lures Dante to a haunted Alcatraz Island, where he'll play their song one last time despite the monsters haunting him.</p>
+			<p>As <strong>code lead</strong> I owned the gameplay architecture: the rhythm-synced combat system, enemy behaviors, level scripting, and the tooling the rest of the team used to hook art and audio into the game.</p>
+		</div>
+		<div class="media-full reveal">
+			<video muted autoplay loop playsinline preload="metadata" poster="img/posters/fallen-fate.jpg">
+				<source src="media/fallen-fate.mp4" type="video/mp4">
+			</video>
+		</div>
+		<p class="media-caption reveal">Design overview: gameplay, systems, and how the beat drives everything</p>
+	</div>
+</section>
+
+<section class="proj-section">
+	<div class="wrap">
+		<div class="story reveal">
+			<h2 class="rainbow">Concept To Final</h2>
+			<p>The main character went through several passes before landing on the final in-game sprite and talking portrait.</p>
+		</div>
+		<div class="concept-row reveal">
+			<figure>
+				<img src="img/ff-concept-char.png" alt="Early character concept art" loading="lazy">
+				<figcaption>Early concept<br><span class="artist-credit">Artist: David G.</span></figcaption>
+			</figure>
+			<figure>
+				<img src="img/ff-concept-guitar.png" alt="Guitar concept art" loading="lazy">
+				<figcaption>Guitar study<br><span class="artist-credit">Artist: David G.</span></figcaption>
+			</figure>
+			<figure class="pixel-art-source">
+				<img class="pixel-art" src="img/ff-final-design-1.gif" alt="Final animated walk cycle" loading="lazy">
+				<figcaption>Final in-game sprite<br><span class="artist-credit">Artist: Bryan Mairena</span></figcaption>
+			</figure>
+		</div>
+		<div class="concept-row reveal" style="margin-top: 18px;">
+			<figure class="pixel-art-source">
+				<img class="pixel-art" src="img/ff-damien-idle.gif" alt="Damien idle animation" loading="lazy">
+				<figcaption>Damien idle<br><span class="artist-credit">Artist: Jay Pallais </span></figcaption>
+			</figure>
+			<figure class="pixel-art-source">
+				<img class="pixel-art" src="img/DantePortrait_TalkingAnimation(1).gif" alt="Dante talking portrait animation" loading="lazy">
+				<figcaption>Dante talking portrait<br><span class="artist-credit">Artist: Fabiola Calderon </span></figcaption>
+			</figure>
+		</div>
+	</div>
+</section>
+
+<section class="proj-section">
+	<div class="wrap">
+		<div class="story reveal">
+			<h2 class="rainbow">Inside The World</h2>
+			<p>Every room is hand-placed pixel art with lighting and camera scripting to keep the horror close.</p>
+		</div>
+		<div class="media-grid world-shots reveal">
+			<figure>
+				<img src="img/ff-infermery.png" alt="The Infirmary environment" loading="lazy">
+				<figcaption>The Infirmary<br><span class="artist-credit">Artist: David G.</span></figcaption>
+			</figure>
+			<figure>
+				<img src="img/ff-gameplay.png" alt="Combat gameplay screenshot" loading="lazy">
+				<figcaption>Rhythm combat in action<br><span class="artist-credit">Artist: Ryan Darmansyah, Luis Espinoza & Nicolas Salman</span></figcaption>
+			</figure>
+		</div>
+	</div>
+</section>
+
+<section class="proj-section">
+	<div class="wrap">
+		<div class="story reveal">
+			<h2 class="rainbow heading-sm">Cutting Room Floor</h2>
+			<p>Enemies that didn't make the final cut. Still some of my favorite designs from the team.</p>
+		</div>
+		<div class="media-grid reveal">
+			<figure>
+				<img src="img/ff-unused-baphomet.png" alt="Unused Baphomet enemy concept" loading="lazy">
+				<figcaption class="caption-light">Unused: Baphomet<br><span class="artist-credit">Artist: David G.</span></figcaption>
+			</figure>
+			<figure>
+				<img src="img/ff-unused-fly.png" alt="Unused fly enemy concept" loading="lazy">
+				<figcaption class="caption-light">Unused: The Fly<br><span class="artist-credit">Artist: David G.</span></figcaption>
+			</figure>
+		</div>
+	</div>
+</section>
+
+<div class="proj-next">
+	<span class="np-label">Play on itch.io</span>
+	<a class="np-title" href="https://epicdavid.itch.io/fallen-fate" target="_blank" rel="noopener">Play Game &rarr;</a>
+	<a class="np-back" href="index.html#work">&larr; Back to all work</a>
+</div>
+
+<footer class="site-footer">&copy; 2026 David Glazier</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

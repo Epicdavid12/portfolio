@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>David Glazier</title>
+<meta name="description" content="Demo reel of selected animation and game work by David Glazier.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+	<a class="site-logo" href="index.html"><img src="img/logo-david-glazier.png" alt="David Glazier"></a>
+	<nav class="main-nav">
+		<a href="index.html">home</a>
+		<div class="nav-dropdown">
+			<a href="index.html#work" class="nav-dropdown-trigger" aria-haspopup="true" aria-expanded="false">my work</a>
+			<div class="nav-dropdown-menu" role="menu">
+				<a href="demo-reel.html">Demo Reel</a>
+				<a href="fallen-fate.html">Fallen Fate</a>
+				<a href="political-party-animal.html">Political Party Animal</a>
+				<a href="art-fight.html">Art Fight</a>
+				<a href="au-bon-cake.html">Au Bon Cake</a>
+				<a href="personal-3d.html">3D Personal Projects</a>
+			</div>
+		</div>
+		<a href="index.html#contact">contact</a>
+		<a href="demo-reel.html">demo reel</a>
+		<a href="resume.html">resume</a>
+	</nav>
+	<button class="menu-btn" id="menu-open" aria-label="Open menu"><span></span><span></span><span></span></button>
+</header>
+
+<nav class="nav-overlay" id="nav-overlay">
+	<button class="nav-close" id="menu-close" aria-label="Close menu">&times;</button>
+	<a href="index.html">home</a>
+	<div class="nav-overlay-group">
+		<a href="index.html#work">my work</a>
+		<div class="nav-overlay-sub">
+				<a href="demo-reel.html">Demo Reel</a>
+				<a href="fallen-fate.html">Fallen Fate</a>
+				<a href="political-party-animal.html">Political Party Animal</a>
+				<a href="art-fight.html">Art Fight</a>
+				<a href="au-bon-cake.html">Au Bon Cake</a>
+				<a href="personal-3d.html">3D Personal Projects</a>
+		</div>
+	</div>
+	<a href="index.html#contact">contact</a>
+	<a href="demo-reel.html">demo reel</a>
+	<a href="resume.html">resume</a>
+</nav>
+
+<section class="proj-hero">
+	<div class="proj-hero-media"><img src="img/posters/demo-reel.jpg" alt="Demo reel poster"></div>
+	<div class="proj-hero-content wrap">
+		<p class="proj-kicker">Showreel &bull; Animation &bull; Games</p>
+		<h1 class="rainbow">Demo Reel</h1>
+		<p class="proj-tagline">Selected animation and game work. A quick look at the range of projects I build and ship.</p>
+		<div class="proj-meta">
+			<span>Animation</span><span>Game Dev</span><span>Art</span><span>Programming</span>
+		</div>
+	</div>
+</section>
+
+<section class="proj-section">
+	<div class="wrap">
+		<div class="story reveal">
+			<h2 class="rainbow">The Reel</h2>
+			<p>A compact cut of recent work across games, animation, and personal 3D. Press play below for the full reel.</p>
+		</div>
+		<div class="media-full reveal">
+			<video muted autoplay loop playsinline preload="metadata" poster="img/posters/demo-reel.jpg">
+				<source src="media/demo-reel.mp4" type="video/mp4">
+			</video>
+		</div>
+		<p class="media-caption reveal">Demo reel — selected animation and game work</p>
+	</div>
+</section>
+
+<div class="proj-next">
+	<span class="np-label">Next project</span>
+	<a class="np-title" href="fallen-fate.html">Fallen Fate &rarr;</a>
+	<a class="np-back" href="index.html#work">&larr; Back to all work</a>
+</div>
+
+<footer class="site-footer">&copy; 2026 David Glazier</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

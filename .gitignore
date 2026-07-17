@@ -1,0 +1,13 @@
+# Local tooling / caches
+tools/node_modules/
+tools/shots/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Raw source assets (too large for GitHub; website/ has web-ready copies)
+assets/
+Site files/
+Fonts/
+Logo/
