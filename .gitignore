@@ -11,3 +11,6 @@ Thumbs.db
 /Site files/
 /Fonts/
 /Logo/
+
+# Empty / unused local folders under the site
+website/assets/

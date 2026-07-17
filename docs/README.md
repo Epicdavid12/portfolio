@@ -14,3 +14,4 @@ Change documentation for the portfolio project, organized by subject matter.
 | July 17, 2026 | Native gallery scroll + hero 3D removed | [2026-07-17_native-reel-scroll-hero-3d-removed.md](2026-07-17_native-reel-scroll-hero-3d-removed.md) |
 | July 17, 2026 | Demo Reel showcase page | [2026-07-17_demo-reel-showcase-page.md](2026-07-17_demo-reel-showcase-page.md) |
 | July 17, 2026 | Fallen Fate hi-res images + gallery pixel scale | [2026-07-17_fallen-fate-hires-pixel-gallery.md](2026-07-17_fallen-fate-hires-pixel-gallery.md) |
+| July 17, 2026 | Cursor Cloud Agents — GitHub repo setup | [2026-07-17_cursor-cloud-agents-github-setup.md](2026-07-17_cursor-cloud-agents-github-setup.md) |
