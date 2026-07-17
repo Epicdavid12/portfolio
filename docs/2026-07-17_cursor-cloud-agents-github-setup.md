@@ -10,7 +10,7 @@ Date: July 17, 2026
 ## Technical Explanations
 - Cursor Cloud Agents run against a **GitHub remote**, not a local-only folder. Uncommitted or un-pushed work is not available to the cloud VM.
 - `.gitignore` uses rooted paths (`/Fonts/`, `/Logo/`, etc.) so Windows case-insensitive matching does not accidentally ignore `website/fonts/`.
-- Repo is public under `Epicdavid12/portfolio`, default branch `main`.
+- Repo is **private** under `Epicdavid12/portfolio`, default branch `main`.
 
 ## How to use with Cursor Cloud Agents
 1. In Cursor, confirm GitHub is connected (Settings → Account / Integrations).
