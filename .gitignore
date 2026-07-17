@@ -7,7 +7,7 @@ __pycache__/
 Thumbs.db
 
 # Raw source assets (too large for GitHub; website/ has web-ready copies)
-assets/
-Site files/
-Fonts/
-Logo/
+/assets/
+/Site files/
+/Fonts/
+/Logo/
